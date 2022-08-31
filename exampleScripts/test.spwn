@@ -1,0 +1,7 @@
+gs = import gamescene
+
+block = 1g
+
+on(gs.button_a(), !{
+    block.move(10, 0, 0.1)
+})
